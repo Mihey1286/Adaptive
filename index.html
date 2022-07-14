@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Адаптивная верстка </title>
+    <style>
+      @media screen and (min-width: 500px) {
+    body {
+        background-color: rgb(255, 159, 159);
+    }
+    #menu {
+        border: 1px solid black;
+        background-color: rgb(255, 70, 70);
+        margin: 0px auto;             
+    }
+    #menu ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px;
+        margin: 0px;
+    }
+    #menu li {
+        list-style-type: none;
+    }
+    #menu a {
+        padding: 10px;
+        color: blue;
+        display: block;
+        text-decoration: none;
+    }
+    #menu a:hover {
+        background-color: white;
+        color: blue;
+    }
+    img {
+        width: 300px;
+        height: 200px;
+        float: left;
+        padding: 10px 10px 0px 10px;
+    }
+    #wrapper {
+        display: flex;
+    }
+    #content {
+        border: 1px solid black;
+    }
+    p {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-color: rgb(172, 255, 172);
+    }
+    #menu {
+        border: 1px solid black;
+        background-color: rgb(37, 236, 103);
+        float: left;
+        height: 826px;
+        display: flex;
+              
+    }
+    #menu ul {
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0px;
+        margin: 0px;
+    }
+    #menu li {
+        list-style-type: none;
+    }
+    #menu a {
+        padding: 10px;
+        color: blue;
+        display: block;
+        text-decoration: none;
+    }
+    #menu a:hover {
+        background-color: white;
+        color: blue;
+    }
+    img {
+        width: 200px;
+        height: 150px;
+        float: left;
+        padding: 10px 10px 0px 10px;
+    }
+    #wrapper {
+        display: flex;
+	    justify-content: center;
+	    flex-direction: column;
+    }
+    #content {
+        border: 1px solid black;
+    }
+    p {
+        padding: 10px;
+    }
+}
+    </style>
+</head>
+<body>
+
+<div id="menu">
+<ul>
+    <li> <a href=""> Контакты </a> </li>
+    <li> <a href=""> Адреса </a> </li>
+    <li> <a href=""> Товары </a> </li>
+    <li> <a href=""> Услуги </a> </li>
+</ul>
+</div>
+
+<div id="wrapper">
+<div id="content">
+
+    <img src="IMG_20211014_172051.jpg" alt="Наша стиралка" title="Стиралка">
+
+    <h3> Стиралка 1. </h3>
+
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, inventore magnam? Accusamus numquam tenetur voluptatibus ullam iure aspernatur molestias, minus natus. Fuga nihil ipsa, ea libero illum harum aliquam facere unde. A asperiores eaque dolor veritatis dolorem, vel quod natus quos temporibus amet, ex, distinctio atque fugiat. Odit sint corporis consequatur ut eum suscipit velit impedit eos, facilis nemo quisquam itaque excepturi a repellat aspernatur cumque in dolorum animi sit aliquam officia illo, doloremque neque. Quibusdam asperiores provident debitis dolore cum amet, placeat rem, ducimus quaerat hic deleniti dicta est, a laudantium. Et porro earum iusto ut, quo impedit hic minus voluptates dolores maiores doloremque laboriosam deleniti aliquam reiciendis delectus cum deserunt explicabo illum nostrum fuga consequuntur. Recusandae ut accusantium, tenetur reiciendis corrupti eaque aspernatur sit laborum esse? Voluptatem corporis possimus fugiat illum! Blanditiis sequi maxime veritatis vel quidem facilis, ab, sed perferendis accusamus exercitationem magni impedit nulla, iure incidunt reprehenderit neque expedita fuga modi. Porro totam dolor eligendi ipsam beatae nobis corrupti cumque harum, ipsum iure nemo fuga? In, nemo possimus!
+    </p>
+
+</div>
+
+
+<div id="content">
+
+    <img src="IMG_20211014_172055.jpg" alt="Наша стиралка" title="Наша стиралка">
+
+    <h3> Стиралка 2. </h3>
+
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, inventore magnam? Accusamus numquam tenetur voluptatibus ullam iure aspernatur molestias, minus natus. Fuga nihil ipsa, ea libero illum harum aliquam facere unde. A asperiores eaque dolor veritatis dolorem, vel quod natus quos temporibus amet, ex, distinctio atque fugiat. Odit sint corporis consequatur ut eum suscipit velit impedit eos, facilis nemo quisquam itaque excepturi a repellat aspernatur cumque in dolorum animi sit aliquam officia illo, doloremque neque. Quibusdam asperiores provident debitis dolore cum amet, placeat rem, ducimus quaerat hic deleniti dicta est, a laudantium. Et porro earum iusto ut, quo impedit hic minus voluptates dolores maiores doloremque laboriosam deleniti aliquam reiciendis delectus cum deserunt explicabo illum nostrum fuga consequuntur. Recusandae ut accusantium, tenetur reiciendis corrupti eaque aspernatur sit laborum esse? Voluptatem corporis possimus fugiat illum! Blanditiis sequi maxime veritatis vel quidem facilis, ab, sed perferendis accusamus exercitationem magni impedit nulla, iure incidunt reprehenderit neque expedita fuga modi. Porro totam dolor eligendi ipsam beatae nobis corrupti cumque harum, ipsum iure nemo fuga? In, nemo possimus!
+    </p>
+
+</div>
+</div>
+
+</body>
+</html>
